@@ -1,0 +1,107 @@
+body
+{
+    background-color: rgba(98, 20, 2, 1);
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgb(98, 20, 2) 0%, rgba(98, 20, 2, 0.31) 95%), url(IMG/bg.png) no-repeat center top / cover; 
+    font-family: Roboto;
+}
+
+.header
+{
+    display: flex;
+    margin: auto;
+    max-width: 1170px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 31px;
+}
+
+.list
+{
+    list-style-type: none;
+    display: flex;
+    margin-right: 25px;
+    gap: 40px;
+
+}
+
+.nav-menu .list 
+{
+    list-style-type: none;
+
+}
+
+.list-1 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.user
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-left: auto;
+}
+
+.film
+{
+    max-width: 1170px;         
+    margin: 153px auto 0;      
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;       
+}
+
+.film-info
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.film-1 
+{
+    margin-bottom: 11px;
+    font-size: 24px;
+    color: rgb(100, 100, 100);
+}
+
+.film-name
+{
+    margin-bottom: 23px;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+
+.film-text 
+{
+    max-width: 570px;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+}
+
+.play-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+}
+
+.clock-and-reating
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 30px; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+    width: 100%;
+}
+
